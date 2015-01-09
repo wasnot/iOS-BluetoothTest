@@ -13,6 +13,7 @@
 		AB018B4C1A5F8F7600C6E410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB018B4B1A5F8F7600C6E410 /* Images.xcassets */; };
 		AB018B4F1A5F8F7600C6E410 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB018B4D1A5F8F7600C6E410 /* LaunchScreen.xib */; };
 		AB018B5B1A5F8F7600C6E410 /* BluetoothTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB018B5A1A5F8F7600C6E410 /* BluetoothTestTests.swift */; };
+		AB018B651A5F943900C6E410 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB018B641A5F943900C6E410 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AB018B541A5F8F7600C6E410 /* BluetoothTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB018B591A5F8F7600C6E410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB018B5A1A5F8F7600C6E410 /* BluetoothTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothTestTests.swift; sourceTree = "<group>"; };
+		AB018B641A5F943900C6E410 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB018B651A5F943900C6E410 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		AB018B361A5F8F7600C6E410 = {
 			isa = PBXGroup;
 			children = (
+				AB018B641A5F943900C6E410 /* CoreBluetooth.framework */,
 				AB018B411A5F8F7600C6E410 /* BluetoothTest */,
 				AB018B571A5F8F7600C6E410 /* BluetoothTestTests */,
 				AB018B401A5F8F7600C6E410 /* Products */,
@@ -161,6 +165,7 @@
 				TargetAttributes = {
 					AB018B3E1A5F8F7600C6E410 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = GL3NKE9BN8;
 					};
 					AB018B531A5F8F7600C6E410 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -407,6 +412,7 @@
 				AB018B601A5F8F7600C6E410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB018B611A5F8F7600C6E410 /* Build configuration list for PBXNativeTarget "BluetoothTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +421,7 @@
 				AB018B631A5F8F7600C6E410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
